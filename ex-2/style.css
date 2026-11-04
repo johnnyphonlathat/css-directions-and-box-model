@@ -1,1 +1,39 @@
-/* Start coding here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #101116;
+    padding: 5px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    border: 5px solid #cccccc;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #d71935;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    background-color: #f3e58d;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.content h2 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: #222222;
+}

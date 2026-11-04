@@ -1,1 +1,41 @@
-/* Start coding here */
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 640px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  header {
+    background-color: #9bb4c6;
+    padding: 15px 24px;
+  }
+  
+  header h1 {
+    font-size: 18px;
+    color: #29465a;
+  }
+  
+  main {
+    padding: 22px;
+  }
+  
+  .blog {
+    width: 360px;
+    padding: 10px;
+    margin-bottom: 22px;
+    border: 2px solid #29465a;
+    background-color: #e8edf0;
+  }
+  
+  .blog img {
+    width: 100%;
+  }
+  
+  .blog p {
+    font-size: 10px;
+  }

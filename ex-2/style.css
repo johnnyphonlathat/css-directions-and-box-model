@@ -1,1 +1,30 @@
-/* Start coding here */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.grey-box{
+    border: 16px solid lightgrey;
+    height: 100vh;
+}
+
+.black-box{
+    border: 16px solid black;
+    height: 100%;
+}
+
+.crimson-box{
+    border: 24px solid crimson;
+    height: 100%;
+}
+
+.khaki-box{
+    background-color: khaki;
+    height: 100%;
+}
+
+h1{
+    font-size: 72px;
+    text-align: center;
+}
